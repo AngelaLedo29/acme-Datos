@@ -2,6 +2,8 @@
 title: "Pirineo"
 date: 2022-09-21T10:11:37+02:00
 draft: false
+lat: 40.97655
+lon: -0.44721
 ---
 
 Los Pirineos o el Pirineo es un sistema montañoso situado en el noreste de la península ibérica, que hace de frontera natural entre España y Francia. Se extiende en dirección este-oeste a lo largo de 491 km aproximadamente, desde el cabo de Creus en el mar Mediterráneo hasta su unión con la cordillera Cantábrica, donde se ha establecido la falla de Pamplona como su límite convencional geológico, no existiendo interrupción geográfica entre ambas formaciones. En su parte central tiene una anchura de unos 150 km.

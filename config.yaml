@@ -16,22 +16,40 @@ menu:
     - identifier: about 
       name: Acerca de 
       url: /about 
+      pageRef: about
       weight: 100 
     - identifier: contact
       name: Contacto 
-      url: /contact 
+      url: /contact
+      pageRef: contact
       weight: 200 
     - identifier: curriculum
       name: Curriculum
       url: /curriculum
+      pageRef: curriculum
       weight: 50
     - identifier: viajes
       name: Viajes
       url: /viajes
+      pageRef: viajes
       weight: 50
     - identifier: blog
       name: Blog
       url: /blog
+      pageRef: blog
+      weight: 50
+    - identifier: tv
+      name: Canales
+      url: /television/canales
+      pageRef: tv
+      weight: 50
+    - identifier: peliculas
+      name: Peliculas
+      url: /peliculas/mas-valoradas
+      weight: 50
+    - identifier: centros
+      name: Centros
+      url: /centros/institutos
       weight: 50
 params: 
   color: "#4f46e5"
