@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container">
+    <h1 class="titulo">{{ .Title }}</h1>
+    {{ .Content }}
+
+    <h2>Datos Fiestas Pilares</h2>
+
+    {{ range .Site.Data.fiestas }}
+    <ul>
+        <li>{{ range.subEvent }}</li>
+        <li class="list-group-item">{{ .location.title }}</li>
+        <li class="list-group-item">{{ .location.streetAddress }}</li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</div>
+{{ end }}

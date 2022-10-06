@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div class="container">
+    <h1 class="titulo">{{ .Title }}</h1>
+    {{ .Content }}
+
+    <h2>Top Peliculas más valoradas</h2>
+    <table class="table table-bordered border-dark">
+        <thead class="text-center">
+            <tr>
+                <th scope="col">Ranking</th>
+                <th scope="col">Título de la Película</th>
+                <th scope="col">Imagen de la Película</th>
+                <th scope="col">Año de Lanzamiento</th>
+            </tr>
+        </thead>
+        <tbody class="align-middle">
+            {{ range .Site.Data.datos_pelis }}
+            <tr>
+                <td class="text-center">{{ .ranking }}</td>
+                <td><a href="https://www.imdb.com{{ .url }}">{{ .titulo }}</a></td>
+                <td><img class="img-fluid rounded mx-auto d-block" src="{{ .img }}" alt="Imagen de {{ .titulo }}"></td>
+                <td class="text-center">{{ .year }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</div>
+{{ end }}
